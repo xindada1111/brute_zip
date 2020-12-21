@@ -16,6 +16,7 @@ class BRUTE_ZIP(object):
         window.geometry('500x500')
         self.zip_file=tk.StringVar()
         self.dict_file=tk.StringVar()
+        self.dict_file.set('english.dic')
         self.thread_num=tk.IntVar()
         self.thread_num.set(2)
         tk.Label(window,text='压缩文件').place(x=100,y=100)
